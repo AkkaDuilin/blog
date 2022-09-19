@@ -26,7 +26,11 @@ sort函数的一些理解
 Comparator接口的用法
 
 
+<<<<<<< HEAD
 
+=======
+#Java 
+>>>>>>> 710f4efc6c546c0f3d7e8ec9d05d24339b6239ba
 
 
 
@@ -51,13 +55,22 @@ https://blog.csdn.net/ly0724ok/article/details/117966154/
 # sort自定义排序
 
 方法原型
+<<<<<<< HEAD
 void java.util.ArrayList.sort(Comparator<? super Contury> c)
+=======
+`void java.util.ArrayList.sort(Comparator<? super Contury> c)`
+>>>>>>> 710f4efc6c546c0f3d7e8ec9d05d24339b6239ba
 
 Comparator接口具有比较的功能，接口注重容器
 而Comparator接口中必须要实现的compare(T o1,T o2)有两个参数
 
 **在数组sort中实现Comparator接口的重写**
+<<<<<<< HEAD
 {% codeblock   %}
+=======
+
+```java
+>>>>>>> 710f4efc6c546c0f3d7e8ec9d05d24339b6239ba
 table.sort( new Comparator<Contury>() {
   @Override
   // compare重写
@@ -68,10 +81,18 @@ table.sort( new Comparator<Contury>() {
       else return -1;
   }
 });
+<<<<<<< HEAD
 {% endcodeblock %}
 
 **直接重写Comparator接口**
 {% codeblock   %}
+=======
+```
+
+
+**直接重写Comparator接口**
+```
+>>>>>>> 710f4efc6c546c0f3d7e8ec9d05d24339b6239ba
 class StudentComparator implements Comparator<Student>{  
     @Override  
     public int compare(Student o1, Student o2) {  
@@ -90,12 +111,22 @@ class StudentComparator implements Comparator<Student>{
         }  
     }  
       
+<<<<<<< HEAD
 }  
 {% endcodeblock %}
 
 https://blog.51cto.com/u_15338614/3582482
 
 # xx3x
+=======
+} 
+``` 
+
+
+https://blog.51cto.com/u_15338614/3582482
+
+
+>>>>>>> 710f4efc6c546c0f3d7e8ec9d05d24339b6239ba
 
 <hr />
 版权信息

@@ -382,6 +382,10 @@ JComboBox 能够响应 ItemEvent 事件和 ActionEvent 事件，其中 ItemEvent
 
 {% codeblock %}
 
+<<<<<<< HEAD
+=======
+``` java
+>>>>>>> 710f4efc6c546c0f3d7e8ec9d05d24339b6239ba
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -443,6 +447,10 @@ public class FrameDemo
         new FrameDemo();
     }
 }
+<<<<<<< HEAD
+=======
+```
+>>>>>>> 710f4efc6c546c0f3d7e8ec9d05d24339b6239ba
 
 {% endcodeblock %}
 
