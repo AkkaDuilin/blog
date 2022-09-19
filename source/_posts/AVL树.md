@@ -23,14 +23,6 @@ https://www.cnblogs.com/wasi-991017/p/13824039.html
 
 <a href="https://sm.ms/image/Ag1Owom6QxB5c2s" target="_blank"><img src="https://s2.loli.net/2021/12/15/Ag1Owom6QxB5c2s.jpg" alt="RL.jpg"></a>
 
-<<<<<<< HEAD
-=======
-
-#数据结构 #算法
-
->>>>>>> 710f4efc6c546c0f3d7e8ec9d05d24339b6239ba
-<!-- more -->
-
 # 基本概念
 
 平衡二叉树可以理解为是二叉排序树的优化版本，在二叉排序树的应用过程中会出现子树间深度差距大而导致查找性能下降的情况，所以就有了平衡二叉树这种优化方法。
