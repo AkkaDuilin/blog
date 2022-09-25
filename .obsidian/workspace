@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/操作系统-进程.md",
+                "file": "source/_posts/操作系统-概论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/操作系统-进程.md",
+                "file": "source/_posts/操作系统-概论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/操作系统-进程.md"
+                "file": "source/_posts/操作系统-概论.md"
               }
             }
           }
@@ -129,48 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "floating": {
-    "id": "112a893828dd43be",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e483222ded2fda55",
-        "type": "window",
-        "children": [
-          {
-            "id": "016e2c75d369a73c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/_posts/操作系统-进程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "direction": "vertical",
-        "x": 960,
-        "y": 27,
-        "width": 960,
-        "height": 1053,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "016e2c75d369a73c",
+  "active": "b3eac8c968804260",
   "lastOpenFiles": [
-    "source/_posts/操作系统-概论.md",
     "source/_posts/操作系统-进程.md",
-    "source/_posts/2021总结.md",
-    "source/_posts/Web前端开发.md",
-    "source/_posts/计算机网络概论.md",
-    "source/_posts/计算机组成原理 - 中央处理器.md",
-    "source/_posts/自动机基础.md",
-    "source/_posts/hexo-note.md",
-    "source/_posts/java-note.md",
-    "source/_posts/my-note.md"
+    "source/_posts/操作系统-概论.md",
+    "source/_posts/编译原理-语法分析.md",
+    "source/_posts/编译原理-语法制导的翻译.md",
+    "source/_posts/数据库-关系数据.md",
+    "source/_posts/归并排序实战 - 逆序对问题.md",
+    "source/_posts/计算机图形学 -图形系统.md",
+    "source/_posts/算法导论 - 基础知识.md",
+    "source/_posts/线性表.md",
+    "source/_posts/计算机网络 - 链路层.md"
   ]
 }
