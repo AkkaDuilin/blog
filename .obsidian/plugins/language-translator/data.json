@@ -4,10 +4,10 @@
     "code": "zh-Hans"
   },
   "apiType": {
-    "text": "Builtin",
-    "value": "0"
+    "text": "LibreTranslate",
+    "value": "2"
   },
-  "translateApiUrl": "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0",
+  "translateApiUrl": "https://libretranslate.com/translate",
   "maxCharacters": 2000,
   "token": ""
 }
