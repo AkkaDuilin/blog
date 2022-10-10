@@ -1,12 +1,13 @@
 ---
 title: Web_Development
 categories:
-  - Web
+  - Web开发
   - 前端
   - null
 tags:
   - 前端
   - HTML
+  - CSS
   
 copyright: true
 date: 2022-09-20 09:15:28
@@ -184,9 +185,164 @@ Each `<source>` element has a `media` attribute that defines when the image 
 
  
 ## Tables
+arrange data into rows and columns
+```HTML
+<table style="width:100%">  
+  <caption>Monthly savings</caption>
+  <colgroup>  
+    <col span="2" style="background-color: #D6EEEE">  
+  </colgroup>
+  <tr>  
+    <th style="width:70%">Firstname</th>  
+    <th>Lastname</th>  
+    <th>Age</th>  
+  </tr>  
+  <tr style="height:200px">  
+    <td>Jill</td>  
+    <td>Smith</td>  
+    <td>50</td>  
+  </tr>  
+  <tr>  
+    <td>Eve</td>  
+    <td>Jackson</td>  
+    <td>94</td>  
+  </tr>  
+</table>
+```
+
+`<td>`  table cell
+`<tr>` table rows
+`<th>` table headers
+Use the `style` attribute with the `width` or `height` properties to specify the size of a table, row or column
+The `<colgroup>` element should be used as a container for the column specifications.
+
+
+you can use CSS border property on `table`, `th`, and `td`
+`border-collapse` avoid having double borders
+`border-style` 
+`padding` add padding on table cells
+`border-spacing` change the space between table cell
+if you use `(odd)` instead of `(even)`, the styling will occur on row 1,3,5 etc. instead of 2,4,6 etc.
+```CSS
+table, th(even), td(odd) {  
+	border: 1px solid black;  
+	border-collapse: collapse;
+	background-color: rgba(150, 212, 212, 0.4);
+	border-radius: 10px;
+	border-style:hidden;
+	border-color: #96D4D4;
+	padding-top: 10px;  
+    padding-bottom: 20px;  
+    padding-left: 30px;  
+    padding-right: 40px;
+    border-spacing: 30px;
+}
+ 
+```
+
+
 ## Lists
+- `ul` unordered list
+- `ol` ordered list
+- each list with the `li` tag
+-   Use the CSS `list-style-type` property to define the list item marker
+	- disc/cricle/square/none
+- HTML lists can be styled in many different ways with CSS.
 
+```HTML
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+ul {  list-style-type: none;  
+  margin: 0;  
+  padding: 0;  
+  overflow: hidden;  
+  background-color: #333333;}  
+  
+li {  float: left;}  
+  
+li a {  display: block;  
+  color: white;  
+  text-align: center;  
+  padding: 16px;  
+  text-decoration: none;}  
+  
+li a:hover {  background-color: #111111;}  
+</style>  
+</head>  
+<body>  
+  
+<ul>  
+  <li><a href="#home">Home</a></li>  
+  <li><a href="#news">News</a></li>  
+  <li><a href="#contact">Contact</a></li>  
+  <li><a href="#about">About</a></li>  
+</ul>  
+  
+</body>  
+</html>
 
+```
+
+## Block-level/Inline Elements
+
+### A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+
+The `<p>` element defines a paragraph in an HTML document.
+
+The `<div>` element defines a division or a section in an HTML document.
+
+### An inline element does not start on a new line.
+
+The `<span>` element is an inline container used to mark up a part of a text, or a part of a document.
+
+## Class/Id
+
+### The HTML `class` attribute is used to specify a class for an HTML element.
+To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}:
+
+### The `id` attribute specifies a unique id for an HTML element. The value of the `id` attribute must be unique within the HTML document.
+
+The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+
+```HTML
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+
+#myHeader {  background-color: lightblue;  
+  color: black;  
+  padding: 40px;  
+  text-align: center;}
+  
+.city {  background-color: tomato;  
+  color: white;  
+  padding: 10px;} 
+   
+.main {
+  text-align: center;}
+</style>  
+</head>  
+<body>  
+
+<h1 id="myHeader">My Cities</h1>
+  
+<h2 class="city main">London</h2>  
+<p>London is the capital of England.</p>  
+  
+<h2 class="city">Paris</h2>  
+<p>Paris is the capital of France.</p>  
+  
+<h2 class="city">Tokyo</h2>  
+<p>Tokyo is the capital of Japan.</p>  
+  
+</body>  
+</html>
+```
+
+## 
 # Attributes
 
 ## style
@@ -196,6 +352,80 @@ The _**property**_ is a CSS property. The _**value**_ is a CSS value.
 
 
 # CSS
+https://www.w3schools.com/cssref/css4_pr_accent-color.asp
+## using CSS
+
+CSS can be added to HTML documents in 3 ways:
+
+-   **Inline** - by using the `style` attribute inside HTML elements
+```HTML
+<h1 style="color:blue;">A Blue Heading</h1>
+```
+-   **Internal** - by using a `<style>` element in the `<head>` section
+```HTML
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+h1 {  color: blue;  
+  font-family: verdana;  
+  font-size: 300%;}  
+p {  color: red;  
+  font-family: courier;  
+  font-size: 160%;}
+</style>  
+</head>  
+<body>  
+  
+<h1>This is a heading</h1>  
+<p>This is a paragraph.</p>  
+  
+</body>  
+</html>
+```
+-   **External** - by using a `<link>` element to link to an external CSS file
+```HTML
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+  
+<h1>This is a heading</h1>  
+<p>This is a paragraph.</p>  
+  
+</body>  
+</html>
+
+```
+
+styles.css
+```CSS
+body {  background-color: powderblue;}  
+h1 {  color: blue;}  
+p {  color: red;}
+```
+
+## Property
+- `color` property defines the text color to be used.
+- `accent-color` property defines the accent color for differents user-interface controls
+
+ - `font-family` property defines the font to be used.
+
+-  `font-size` property defines the text size to be used.
+
+-  `border` property defines a border around an HTML element.
+-  `padding` property defines a padding (space) between the text and the border.
+-  `margin` property defines a margin (space) outside the border.
+```CSS
+p {  
+	border: 2px solid powderblue;
+	padding: 30px;
+	margin: 50px;
+}
+```
+
 
 
 # xx2x
