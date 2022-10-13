@@ -1,1 +1,11 @@
-{}
+{
+  "calendar:open-weekly-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ]
+}
