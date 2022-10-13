@@ -1,6 +1,7 @@
 {
   "spellcheck": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./pic",
-  "promptDelete": false
+  "attachmentFolderPath": "./img",
+  "promptDelete": false,
+  "vimMode": false
 }

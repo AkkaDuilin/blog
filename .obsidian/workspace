@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "344d9bda6bf42a97",
+        "id": "b3eac8c968804260",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "source/_posts/x86-64汇编.md",
+            "file": "source/_posts/计算机图形学 -图形系统.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#操作系统",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "748b69d6e39f2a15",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/x86-64汇编.md",
+                "file": "source/_posts/计算机图形学 -图形系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/x86-64汇编.md",
+                "file": "source/_posts/计算机图形学 -图形系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,8 +117,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/x86-64汇编.md"
+                "file": "source/_posts/计算机图形学 -图形系统.md"
               }
+            }
+          },
+          {
+            "id": "5498e444cb3014a2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -129,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "344d9bda6bf42a97",
+  "active": "b3eac8c968804260",
   "lastOpenFiles": [
-    "source/_posts/操作系统-进程.md",
-    "source/_posts/编译原理-语法制导的翻译.md",
-    "source/_posts/编译原理基础概念.md",
-    "source/_posts/Bitree.md",
-    "source/_posts/AVL树.md",
-    "source/_posts/ArrayList.md",
-    "source/_posts/2021总结.md",
-    "source/_posts/-.md",
-    "source/_posts/pic/Pasted image 20220919140423.png",
-    "source/_posts/计算机网络-物理层.md"
+    "source/_posts/计算机图形学 - 二维图形光栅化.md",
+    "source/_posts/计算机图形学 -图形系统.md",
+    "source/_posts/计算机组成原理 - 中央处理器.md",
+    "source/_posts/骑士周游问题.md",
+    "source/_posts/编译原理 - 基础概念.md",
+    "source/_posts/算法导论 - 基础知识.md",
+    "source/_posts/线性表.md",
+    "source/_posts/栈和队列.md",
+    "source/_posts/自动机基础.md",
+    "source/_posts/编译原理-语法制导的翻译.md"
   ]
 }

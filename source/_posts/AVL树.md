@@ -3,6 +3,7 @@ title: 平衡二叉树详解
 tags:
 	- AVL
 	- 查找
+	- 树
 copyright: true
 date: 2021-12-15 17:12:03
 permalink:

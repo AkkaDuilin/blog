@@ -71,28 +71,28 @@ image:
 
 {% endcodeblock %}
 
-# Hexo部署出现错误err: Error: Spawn failed解决方式
+#  Hexo部署出现错误err: Error: Spawn failed解决方式
 1. 
-##进入站点根目录
+## 进入站点根目录
 cd /usr/local/src/hexo/hanyubolg/
 
-##删除git提交内容文件夹
+## 删除git提交内容文件夹
 rm -rf .deploy_git/
 
-##执行
+## 执行
 git config --global core.autocrlf false
 
-##最后
+## 最后
 hexo clean && hexo g && hexo d
 
 2. 
-##进入站点根目录
+## 进入站点根目录
 cd /usr/local/src/hexo/hanyubolg/
 
-##删除git提交内容文件夹
+## 删除git提交内容文件夹
 vim _config.yml
 
-##修改
+## 修改
 deploy:
 
 type: git
@@ -101,5 +101,5 @@ repo: https://github.com/yourname/yourname.github.io.git -> git@github.com:a9565
 
 branch: master
 
-##最后
+## 最后
 hexo clean && hexo g && hexo d
