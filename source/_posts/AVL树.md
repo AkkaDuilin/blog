@@ -55,6 +55,7 @@ https://www.cnblogs.com/wasi-991017/p/13824039.html
 ## RL型
 右子树平衡因子 大于 左子树 且 右子树的左子树平衡因子 大于 右子树的右子树
 <a href="https://sm.ms/image/Ag1Owom6QxB5c2s" target="_blank"><img src="https://s2.loli.net/2021/12/15/Ag1Owom6QxB5c2s.jpg" alt="RL.jpg"></a>
+
 # 代码实现
 转自：https://www.cnblogs.com/wasi-991017/p/13824039.html
 
@@ -71,9 +72,9 @@ BalanceFactor() 返回某结点的平衡因子
 
 ## 完整代码
 {% codeblock [xxxxxx] [lang:]  %}
-/*******平衡二叉树（AVL）***********/
+
 #pragma once
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 ///平衡二叉树结点结构
