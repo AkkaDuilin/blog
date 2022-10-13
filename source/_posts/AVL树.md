@@ -72,8 +72,9 @@ subRoot->rChild = Insert(subRoot->rChild, k);
 BalanceFactor() 返回某结点的平衡因子
 
 ## 完整代码
-{% codeblock [xxxxxx] [lang:]  %}
 
+
+```C++
 #pragma once
 #include <iostream>
 using namespace std;
@@ -354,6 +355,7 @@ private:
 		}
 	}
 };
-{% endcodeblock %}
+```
+
 <hr />
 版权信息

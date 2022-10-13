@@ -1,4 +1,5 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "accentColor": "#1affd1"
 }

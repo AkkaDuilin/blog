@@ -59,9 +59,10 @@ Shift + Alt + ←	缩小选择 Shrink selection
 
 
 头文件：
-#include <windows.h>
+`#include <windows.h>`
 
-{% codeblock [xxxxxx] [lang:]  %}
+
+```C++
 clock_t time_start, time_end;
 
 /* 获取开始时间 */
@@ -70,7 +71,8 @@ time_start = GetTickCount(); //从操作系统启动经过的毫秒数
 time_end = GetTickCount();
 
 cout << "Time = " << (time_end - time_start) << "ms\n ";
-{% endcodeblock %}
+```
+
 
 
 
@@ -78,7 +80,7 @@ cout << "Time = " << (time_end - time_start) << "ms\n ";
 # C++ 随机函数
 
 
-#define random(x) (rand()%x)
+`#define random(x) (rand()%x)`
 要取得[0,n)  就是rand（）%n     表示 从0到n-1的数
 
 要取得[a,b)的随机整数，使用(rand() % (b-a))+ a; 
@@ -95,7 +97,7 @@ cout << "Time = " << (time_end - time_start) << "ms\n ";
 引用：
 https://zhuanlan.zhihu.com/p/105090421
 
-头文件：#include <malloc.h> 或 #include <alloc.h> (注意：alloc.h 与 malloc.h 的内容是完全一致的。)
+头文件：`#include <malloc.h>` 或 `#include <alloc.h>`(注意：alloc.h 与 malloc.h 的内容是完全一致的。)
 
 功能：分配长度为num_bytes字节的内存块
 
@@ -108,7 +110,8 @@ malloc的意义是向 堆区 要了一块sizeof(int) * N 这么大的空间。
 返回的是指针，所以在后期使用时要解引用。
 
 代码：
-{% codeblock [malloc解析] [lang:C++]  %}
+
+```C++
 #include<stdlib.h>
 
 int main() {
@@ -123,11 +126,13 @@ int main() {
     arr = (int*)malloc(sizeof(int) * N);
 
     printf("请输入%d个数
-{% endcodeblock %}
+```
+
 
 # auto的循环用法
 
 
+```C++
 for(auto &a :b)
 
 输出的结果就是0—9这十个数。
@@ -136,7 +141,7 @@ for(auto &a : arr)中“auto &a”就是变量名就和上一个for循环中的�
 
 与for(int i=0;i<sizeof(arr)/sizeof(arr[0]);i++)是一样的。
 
-{% codeblock [xxxxxx] [lang:]  %}
+
 
 int arr[10];
 for(int i=0;i<10;i++)
@@ -147,7 +152,8 @@ for(auto &a:arr)
 {
   cout << a;
 }
-{% endcodeblock %}
+```
+
 
 **未完待续 (°ー°〃)**
 

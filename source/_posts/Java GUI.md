@@ -6,7 +6,7 @@ categories:
   - null
 tags:
   - Java
-    - GUI
+  - GUI
 copyright: true
 date: 2022-04-02 09:29:22
 permalink:

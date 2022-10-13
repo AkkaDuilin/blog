@@ -56,8 +56,8 @@ https://blog.csdn.net/weixin_42100963/article/details/103639782
 
 以层序遍历在数组种存储
 
-{% codeblock [xxxxxx] [lang:]  %}
 
+```C++
 void CMyTreeArr<T>::prePrint(int index)
 {
     // 限制范围
@@ -99,8 +99,8 @@ inline void CMyTreeArr<T>::levlPrint()
         cout << i << " ";
     }
 }
+```
 
-{% endcodeblock %}
 
 
 ## 链表实现
@@ -108,8 +108,9 @@ inline void CMyTreeArr<T>::levlPrint()
 前中后序非递归
 https://blog.csdn.net/weixin_45599288/article/details/122345321
 
-{% codeblock [二叉树] [lang:C++]  %}
 
+
+```C++
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -397,13 +398,14 @@ void BiTree<DataType>::insert(BiNode<DataType>* node, DataType insert_data, Data
         insert(node->rchild,insert_data,step_data);
     }
 }
+```
 
 
 
 
 
 
-{% endcodeblock %}
+
 
 
 # 森林/二叉树互换

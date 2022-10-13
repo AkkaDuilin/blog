@@ -25,7 +25,7 @@ image:
 #  **常用操作** 
 
 
-{% codeblock [] []  %}
+```
     hexo d 上传至github
     hexo new [layout] <title>
     eg: hexo new post name 新建页面
@@ -38,13 +38,13 @@ image:
     hexo s == hexo server #开启预览访问端口（默认端口4000，'ctrl + c'关闭server）
     hexo d == hexo deploy #将.deploy目录部署到GitHub
     hexo d -g #生成加部署
-    hexo s -g #生成加预览
+    hexo s -g #生成加预览~~
+```
 
-    {% endcodeblock %}
 
 # 常用语言用法
 
-{% codeblock [xxxxxx] [lang:]  %}
+```
 
     代码块
     {% codeblock [xxxxxx] [lang:]  %}{% endcodeblock %}
@@ -68,8 +68,8 @@ image:
     |  序号 | 方法 | 描述 |
     |:-----|:-----|:-----| 
     |       |       |       |
+```
 
-{% endcodeblock %}
 
 #  Hexo部署出现错误err: Error: Spawn failed解决方式
 1. 
