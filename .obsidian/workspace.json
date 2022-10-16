@@ -8,28 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "807be6792b20d5ab",
+            "id": "5e34745d8a07084a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/计算机网络 - 链路层.md",
+                "file": "source/_posts/计算机图形学 - OpenGL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "f942fb39aba7320f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,12 +66,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "748b69d6e39f2a15",
@@ -91,11 +82,38 @@
         "type": "tabs",
         "children": [
           {
+            "id": "bb67dadbbfb56094",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "924565b9c0b53830",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a000f1ab6b29cba7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "source/_posts/计算机图形学 - OpenGL.md"
+              }
+            }
+          },
+          {
             "id": "bc2e0d4fac8df6dc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "source/_posts/计算机图形学 - OpenGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "source/_posts/计算机图形学 - OpenGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,39 +148,14 @@
             }
           },
           {
-            "id": "a000f1ab6b29cba7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "924565b9c0b53830",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "309a5d682f1ed606",
+            "id": "ffea250910e684ec",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "bb67dadbbfb56094",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,17 +164,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "87ed68af2f3fb504",
+  "active": "bb67dadbbfb56094",
   "lastOpenFiles": [
-    "node_modules/stylus/History.md",
-    "source/_posts/Java GUI.md",
-    "source/_posts/ArrayList.md",
-    "source/_posts/my-note.md",
-    "source/_posts/栈和队列.md",
-    "source/_posts/线性表.md",
-    "source/img/Pasted image 20220919140423.png",
-    "source/img/Pasted image 20220919143300.png",
-    "source/_posts/操作系统-进程和线程.md",
-    "source/_posts/编译原理-语法制导的翻译.md"
+    "source/_posts/计算机图形学 - 图形几何变换.md",
+    "source/_posts/2021总结.md",
+    "source/_posts/计算机图形学 -图形系统.md",
+    "source/_posts/计算机图形学 - OpenGL.md",
+    "source/_posts/计算机图形学 - 二维图形光栅化.md",
+    "source/_posts/归并排序实战 - 逆序对问题.md",
+    "source/_posts/Web-JavaScript.md",
+    "source/_posts/Transact-SQL.md",
+    "source/_posts/计算机网络 - 概论.md",
+    "source/_posts/操作系统-CPU调度.md"
   ]
 }

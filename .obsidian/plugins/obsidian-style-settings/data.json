@@ -1,7 +1,13 @@
 {
-  "minimal-style@@hl2@@light": "#FA130B",
-  "minimal-style@@tx2@@light": "#27D90F",
+  "minimal-style@@hl2@@light": "#FAC40B",
   "minimal-style@@tx3@@light": "#D9F200",
   "minimal-style@@text-italic@@light": "#0092F6",
-  "minimal-style@@text-bold@@light": "#FF00F1"
+  "minimal-style@@text-bold@@light": "#FF00F1",
+  "minimal-style@@hl2@@dark": "#EC8246",
+  "minimal-style@@hl1@@dark": "#FF1D00",
+  "minimal-style@@hl1@@light": "#FF0000",
+  "minimal-style@@tx2@@dark": "#F1D3C2",
+  "minimal-style@@tx3@@dark": "#FFDEDE",
+  "minimal-style@@text-italic@@dark": "#8CD0FF",
+  "minimal-style@@text-bold@@dark": "#E8E2BB"
 }
