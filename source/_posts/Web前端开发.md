@@ -342,7 +342,35 @@ The syntax for id is: write a hash character (#), followed by an id name. Then, 
 </html>
 ```
 
-## 
+## Form
+### `<form>`
+a containter for different types of input elements
+### `<input>`
+
+| Type     | Description |
+| -------- | ----------- |
+| text     | **single-line text input field**           |
+| submit   | defines a button for **submitting** form data to a **form-handler**            |
+| reset    | defines a **reset button** that will reset all form values to their default values           |
+| radio    | defines a **radio button**            |
+| checkbox | defines a **checkbox**            |
+| button   | defines a **button**            |
+
+```html
+<form>  
+  <label for="fname">First name:</label><br>  
+  <input type="text" id="fname" name="fname"><br>  
+  <label for="lname">Last name:</label><br>  
+  <input type="text" id="lname" name="lname">  
+</form>
+```
+
+```ad-note
+** `<lable>` defines a lable for elements**
+```
+
+
+##
 # Attributes
 
 ## style
