@@ -28,9 +28,12 @@ image:
 
 # 类的声明
 
-{% codeblock   %}
+
+```java
+
 [public | protected | private ][abstract|final] class className [extends superclassName] [implements interfaceNameList]{……}
-{% endcodeblock %}
+```
+
 
 其中，修饰符public,abstract,final 说明了类的属性，
 className为类名，
@@ -45,14 +48,16 @@ interfaceNameList为类所实现的接口列表。
 
 # 成员变量和成员方法
 
-{% codeblock  %}
+```java
 class className{
     [public | protected | private ] [static] [final] [transient] [volatile] type variableName;//成员变量
     [public | protected | private ] [static] [final | abstract] [native] [synchronized] returnType methodName([paramList]) [throws exceptionList]{
         statements
     }//成员方法
 }
-{% endcodeblock %}
+```
+
+
 
 **成员变量限定词的含义：**
 
@@ -84,8 +89,9 @@ synchronized: 控制多个并发线程的访问
 没有在构造方法中初始化字段时，引用类型的字段默认是null，数值类型的字段用默认值，int类型默认值是0，布尔类型默认值是false
 
 可以定义多个构造方法
+```java
 
-{% codeblock  %}
+
 public class Main {
     public static void main(String[] args) {
         Person p1 = new Person("Xiao Ming", 15); // 既可以调用带参数的构造方法
@@ -118,8 +124,8 @@ class Person {
         return this.age;
     }
 }
-{% endcodeblock %}
 
+```
 # 面向对象的基本特征
 
 ## 封装
