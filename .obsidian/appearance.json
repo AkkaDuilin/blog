@@ -1,5 +1,8 @@
 {
   "theme": "obsidian",
   "cssTheme": "Minimal",
-  "accentColor": "#1affd1"
+  "accentColor": "#1affd1",
+  "interfaceFontFamily": "宋体,楷体",
+  "textFontFamily": "",
+  "baseFontSize": 16
 }
