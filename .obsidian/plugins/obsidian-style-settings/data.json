@@ -8,6 +8,11 @@
   "minimal-style@@hl1@@light": "#FF0000",
   "minimal-style@@tx2@@dark": "#F1D3C2",
   "minimal-style@@tx3@@dark": "#FFDEDE",
+<<<<<<< HEAD
   "minimal-style@@text-italic@@dark": "#FFDDB9",
   "minimal-style@@text-bold@@dark": "#56BAC0"
+=======
+  "minimal-style@@text-italic@@dark": "#8CD0FF",
+  "minimal-style@@text-bold@@dark": "#FFB0D0"
+>>>>>>> c2303dccc10bdcf2733eb0a6830f8ab8a9733af5
 }

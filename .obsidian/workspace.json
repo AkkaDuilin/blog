@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "source/_posts/操作系统 - 概论.md",
                 "mode": "source",
                 "backlinks": true,
@@ -27,14 +28,16 @@
               "type": "markdown",
               "state": {
                 "file": "source/_posts/计算机网络 - 网络层.md",
+=======
+                "file": "source/_posts/计算机网络 - 概论.md",
+>>>>>>> c2303dccc10bdcf2733eb0a6830f8ab8a9733af5
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +119,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "source/_posts/计算机网络 - 网络层.md"
+=======
+                "file": "source/_posts/计算机网络 - 概论.md"
+>>>>>>> c2303dccc10bdcf2733eb0a6830f8ab8a9733af5
               }
             }
           },
@@ -126,7 +133,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "source/_posts/计算机网络 - 网络层.md",
+=======
+                "file": "source/_posts/计算机网络 - 概论.md",
+>>>>>>> c2303dccc10bdcf2733eb0a6830f8ab8a9733af5
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +154,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "source/_posts/计算机网络 - 网络层.md",
+=======
+                "file": "source/_posts/计算机网络 - 概论.md",
+>>>>>>> c2303dccc10bdcf2733eb0a6830f8ab8a9733af5
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,8 +194,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "fe1678ff134e3e22",
+  "active": "20f0d8412dc25457",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "source/_posts/计算机网络 - 链路层.md",
     "source/_posts/计算机网络 - 网络层.md",
     "source/_posts/计算机网络 - 物理层.md",
@@ -191,5 +207,17 @@
     "source/_posts/关系代数.md",
     "source/_posts/操作系统 - 进程和线程.md",
     "source/_posts/操作系统 - 操作系统结构.md"
+=======
+    "source/_posts/计算机网络 - 物理层.md",
+    "source/_posts/计算机网络 - 链路层.md",
+    "source/_posts/链表归并.md",
+    "source/_posts/计算机网络 - 网络层.md",
+    "source/_posts/x86-64汇编.md",
+    "Week/2022-W42.md",
+    "source/_posts/计算机网络 - 概论.md",
+    "source/_posts/操作系统 - 概论.md",
+    "source/_posts/操作系统 - 进程和线程.md",
+    "source/_posts/操作系统 - 进程同步.md"
+>>>>>>> c2303dccc10bdcf2733eb0a6830f8ab8a9733af5
   ]
 }
