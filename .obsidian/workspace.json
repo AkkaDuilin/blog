@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "723f05268c99ffb2",
+        "id": "93067a9559e0620f",
         "type": "tabs",
         "children": [
           {
-            "id": "20f0d8412dc25457",
+            "id": "b67699715dc1a302",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/计算机网络 - 概论.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "beb0b1eacfc1ce95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/_posts/计算机网络 - 链路层.md",
+                "file": "source/_posts/人工智能导论.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#动态规划",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机网络 - 链路层.md"
+                "file": "source/_posts/人工智能导论.md"
               }
             }
           },
@@ -127,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机网络 - 链路层.md",
+                "file": "source/_posts/人工智能导论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机网络 - 链路层.md",
+                "file": "source/_posts/人工智能导论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,28 +155,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 347,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "beb0b1eacfc1ce95",
+  "active": "b67699715dc1a302",
   "lastOpenFiles": [
-    "source/_posts/计算机网络 - 概论.md",
-    "source/_posts/计算机网络 - 链路层.md",
-    "scaffolds/post.md",
-    "source/_posts/计算机网络 - 物理层.md",
-    "source/未命名.md",
-    "source/_posts/考点.md",
-    "source/_posts/计算机网络 - 网络层.md",
-    "source/_posts/链表归并.md",
-    "source/_posts/x86-64汇编.md",
-    "Week/2022-W42.md"
+    "source/_posts/人工智能导论.md",
+    "source/_posts/归结演绎推理.md",
+    "source/_posts/不确定性推理方法.md",
+    "source/_posts/Web-JavaScript.md",
+    "source/_posts/Web前端开发.md",
+    "source/_posts/操作系统 - CPU调度.md",
+    "source/_posts/操作系统 - 操作系统结构.md",
+    "source/_posts/操作系统 - 概论.md",
+    "source/_posts/操作系统 - 进程同步.md",
+    "source/_posts/操作系统 - 进程和线程.md"
   ]
 }

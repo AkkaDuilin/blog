@@ -8,7 +8,8 @@ categories:
     -       
 tags: 
     - 算法
-    - 分治        
+    - 分治   
+    - 算法导论
 description:        
 image:             
 copyright: true     

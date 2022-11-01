@@ -34,13 +34,15 @@ https://blog.csdn.net/weixin_44176696/article/details/112586831
 数据查询是数据库的核心操作，SQL 使用 SELECT 语句进行数据库的查询，其一般格式
 为：
 
-{% codeblock    %}
+
+```SQL
 SELECT [ ALL｜DISTINCT ] < 目标列表达式 > [，<目标列表达式 > …] 
 FROM < 表名或视图名 > [，<表名或视图名>… ] 
 [ WHERE < 条件表达式> ]
 [ GROUP BY < 列名列表> [ HAVING < 条件表达式> ] ]
 [ ORDER BY < 列名> [ ASC ｜DESC ] ]；
-{% endcodeblock %}
+```
+
 
 （1） []：表示[]中的内容是可选的，比如[ WHERE < 条件表达式> ]，表示可以使用 WHERE 也可以不使用
 
