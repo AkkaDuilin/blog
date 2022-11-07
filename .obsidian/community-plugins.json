@@ -10,5 +10,7 @@
   "table-editor-obsidian",
   "obsidian-mind-map",
   "obsidian-checklist-plugin",
-  "quick-latex"
+  "quick-latex",
+  "cm-editor-syntax-highlight-obsidian",
+  "url-into-selection"
 ]
