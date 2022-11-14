@@ -84,48 +84,48 @@ x ：删除没有被 track 的文件
 
 # 远程仓库
 
-```
-git remote
-git remote 命令本质上是一个接口，用于管理存储在仓库的 ./.git/config 文件中的远程条目列表。
 
-git fetch <remote>
+`git remote`
+`git remote` 命令本质上是一个接口，用于管理存储在仓库的 ./.git/config 文件中的远程条目列表。
+
+`git fetch <remote>`
 从仓库中获取所有分支。 这还会从其他仓库下载所有必需的提交和文件。
 
-git fetch <remote><branch>
+`git fetch <remote><branch>`
 与上面的命令相同，但仅获取指定的分支。
 
-git fetch --all
+`git fetch --all`
 获取所有已注册远程分支
 
-git fetch --dry-run
+`git fetch --dry-run`
 --dry-run 选项将执行命令的演示运行。 它将输出在获取期间将采取的操作示例，但不应用它们。
 
 
-git push <remote> <branch>
+`git push <remote> <branch>`
 将指定的分支以及所有必要的提交和内部对象推送到远程仓库的分支 。 这会在目标仓库中创建一个本地分支。 为了防止你覆盖提交，当发现推送的分支的提交不是最新的提交，也就是慢于远程分支的提交时，Git 不会让你推送。
 
-git push <remote> --force
+`git push <remote> --force`
 该命令上面的命令相同，但是它是强制推送，即使当前要推送的分支的提交慢于远程仓库的提交版本。除非你绝对确定自己知道自己在做什么，否则不要使用 --force 选项。
 
-git push <remote> --all
+`git push <remote> --all`
 将所有的本地分支推送到远程。
 
-git push <remote> --tags
+`git push <remote> --tags`
 当推送分支或者使用 --all 选项时，Git 并不会对本地的标签（tag）进行推送。如果要将本地的标签推送的远程仓库，则需要--tags 选项。
 
 
-git pull <remote>
-获取当前分支的指定远程分支并立即将其合并到本地分支中。 这与 git fetch <remote> 后再执行 git merge origin/<current-branch> 相同。
+`git pull <remote>`
+获取当前分支的指定远程分支并立即将其合并到本地分支中。 这与 `git fetch <remote>` 后再执行 `git merge origin/<current-branch>` 相同。
 
-git pull --no-commit <remote>
+`git pull --no-commit <remote>`
 与默认调用类似，获取远程内容但不创建新的合并提交。
 
-git pull --rebase <remote>
+`git pull --rebase <remote>`
 与上一个 pull 相同，单不是使用 git merge 将远程分支与本地分支合并，而是使用 git rebase。
 
-git pull --verbose
+`git pull --verbose`
 显示在拉取期间的下载的内容和合并的详细信息。
-```
+
 # 分支
 
 git中，分支操作则是每个开发人员日常工作流。
@@ -144,36 +144,36 @@ hotfix branch：bug修复分支
 
 ## git branch 常见选项
 
-```
+
 1. git branch
 或者
 git branch --list
 列出仓库中的所有分支。
 
-2. git branch <branch>
-创建一个名为<branch>的新分支。这并没有检出新的分支。
+2. `git branch <branch>`
+创建一个名为`<branch>`的新分支。这并没有检出新的分支。
 
-3. git branch -d <branch>
+3. git branch -d `<branch>`
 删除指定的分支。这是一个“安全”操作，因为 Git 会阻止我们删除具有未合并更改的分支。
 
-4. git branch -D <branch>
+4. `git branch -D <branch>`
 强制删除指定的分支，即使它有未合并的更改。如果想永久丢弃与特定开发线相关的所有提交，则可以使用此命令。
 
-5. git branch -m <branch>
-将当前分支重命名为<branch>。
+5. `git branch -m <branch>`
+将当前分支重命名为`<branch>`。
 
-6. git branch -a
+6. `git branch -a`
 列出所有远程分支。
-```
+
 ## git checkout 
 
 git checkout 在分支上使用时会改变 HEAD 引用的目标。 它可用于创建分支、切换分支和检出远程分支。
 
-```
-1. 切换分支 git checkout branch_id
 
-2. 创建分支并切换 git checkout -b <new-branch>
-```
+1. 切换分支 `git checkout branch_id`
+
+2. 创建分支并切换 `git checkout -b <new-branch>`
+
 
 ## git merge
 将多个提交序列合并为一个统一的历史记录
@@ -185,7 +185,9 @@ https://www.jiyik.com/w/git/git-merge
 
 https://developer.aliyun.com/article/604633
 
-# 
+# 问题日志
+## 2022.11.14
+
 # MORE
 
 <hr />
