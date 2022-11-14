@@ -186,8 +186,18 @@ https://www.jiyik.com/w/git/git-merge
 https://developer.aliyun.com/article/604633
 
 # 问题日志
-## 2022.11.14
+## REBASE 1/2
+- 解决：`git rebase --abort
+- git rebase 操作
+http://jartto.wang/2018/12/11/git-rebase/
 
+## error: failed to push some refs to ‘git@github.com:‘
+- 当前仓库与git上仓库版本不一致
+- git reset --hard
+reset是指将HEAD指针指到指定提交，历史记录中不会出现放弃的提交记录
+
+- `git pull origin [branch]` or `git pull --rebase origin [branch]`
+拉取最新分支
 # MORE
 
 <hr />
