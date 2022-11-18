@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/计算机网络 - 网络层.md",
+                "file": "source/_posts/x86-64汇编.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机网络 - 网络层.md"
+                "file": "source/_posts/x86-64汇编.md"
               }
             }
           },
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机网络 - 网络层.md",
+                "file": "source/_posts/x86-64汇编.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机网络 - 网络层.md",
+                "file": "source/_posts/x86-64汇编.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,15 +155,17 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 347,
     "collapsed": true
   },
-  "active": "43048296f947a6b3",
+  "active": "5e4a2b6cf276cf2c",
   "lastOpenFiles": [
+    "source/_posts/计算机网络 - 网络层.md",
     "source/_posts/x86-64汇编.md",
     "source/_posts/操作系统 - 内存管理.md",
     "source/_posts/搜索求解策略.md",
@@ -172,7 +174,6 @@
     "Day Planners/2022-11-15.md",
     "Week/2022-W46.md",
     "Week/2022-W47.md",
-    "Week/2022-W45.md",
-    "Week/2022-W48.md"
+    "Week/2022-W45.md"
   ]
 }
