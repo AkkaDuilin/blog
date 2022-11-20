@@ -1,0 +1,14 @@
+{
+  "spellcheck": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./img",
+  "promptDelete": false,
+  "vimMode": false,
+  "userIgnoreFilters": [
+    "themes/",
+    "scaffolds/",
+    "Pasted image blog/",
+    "bugzil.la/",
+    "pic/"
+  ]
+}

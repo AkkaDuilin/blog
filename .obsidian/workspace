@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "512293b1e2034b34",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3eac8c968804260",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "source/_posts/骑士周游问题.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7b196aeb7f5d1f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7645e2252f7b8ca0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7dd550e9dad4e46",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5b8a6373fec476c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de733cc8de0b7283",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "748b69d6e39f2a15",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e3a9b4dd758c2f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc2e0d4fac8df6dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "source/_posts/骑士周游问题.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "56c044d1d2f466f3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "source/_posts/骑士周游问题.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "87ed68af2f3fb504",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a000f1ab6b29cba7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "source/_posts/骑士周游问题.md"
+              }
+            }
+          },
+          {
+            "id": "924565b9c0b53830",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5588794fd8090b5e",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b3eac8c968804260",
+  "lastOpenFiles": [
+    "source/_posts/数据库设计.md",
+    "source/_posts/计算机图形学 - 二维图形光栅化.md",
+    "source/_posts/自动机基础.md",
+    "source/_posts/最短路径.md",
+    "source/_posts/最小生成树.md",
+    "source/_posts/ArrayList.md",
+    "source/_posts/AVL树.md",
+    "source/_posts/Bitree.md",
+    "source/_posts/Git.md",
+    "source/_posts/her.md"
+  ]
+}
