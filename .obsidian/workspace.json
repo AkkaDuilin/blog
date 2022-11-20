@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week/2022-W47.md",
+                "file": "source/_posts/计算机网络 - 网络层.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43afad72a998270c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/Vim 学习笔记.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "748b69d6e39f2a15",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week/2022-W47.md"
+                "file": "source/_posts/Vim 学习笔记.md"
               }
             }
           },
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week/2022-W47.md",
+                "file": "source/_posts/Vim 学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week/2022-W47.md",
+                "file": "source/_posts/Vim 学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,17 +183,17 @@
     "direction": "horizontal",
     "width": 347
   },
-  "active": "43048296f947a6b3",
+  "active": "ffea250910e684ec",
   "lastOpenFiles": [
-    "Pasted image blog/source/img/Pasted image 20220919143300.png.md",
-    "Pasted image blog/source/img/Pasted image 20220919140423.png.md",
     "source/_posts/计算机网络 - 网络层.md",
-    "Week/2022-W46.md",
-    "Day Planners/2022-11-19.md",
-    "Day Planners/2022-11-17.md",
+    "Week/2022-W48.md",
+    "Week/未命名.md",
+    "source/Unfinished/pic/Pasted image 20220919140423.png",
+    "source/Unfinished/pic/Pasted image 20220919143300.png",
+    "bugzil.la/1090768.md",
+    "source/_posts/x86-64汇编.md",
     "source/_posts/操作系统 - 内存管理.md",
     "source/_posts/Git.md",
-    "source/_posts/x86-64汇编.md",
-    "Week/2022-W48.md"
+    "source/img/Pasted image 20220919143300.png"
   ]
 }
