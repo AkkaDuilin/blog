@@ -12,5 +12,6 @@
   "obsidian-checklist-plugin",
   "quick-latex",
   "cm-editor-syntax-highlight-obsidian",
-  "url-into-selection"
+  "url-into-selection",
+  "obsidian-git"
 ]

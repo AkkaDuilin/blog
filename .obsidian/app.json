@@ -3,5 +3,12 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "./img",
   "promptDelete": false,
-  "vimMode": false
+  "vimMode": false,
+  "userIgnoreFilters": [
+    "themes/",
+    "scaffolds/",
+    "Pasted image blog/",
+    "bugzil.la/",
+    "pic/"
+  ]
 }
