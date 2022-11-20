@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0332f059c8b818dc",
+        "id": "648a58f077e41975",
         "type": "tabs",
         "children": [
           {
-            "id": "43048296f947a6b3",
+            "id": "a9d09183d13bec28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/搜索求解策略.md",
+                "file": "Week/Day Planners/Day.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -81,7 +81,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bb67dadbbfb56094",
+            "id": "924565b9c0b53830",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c548a6ad0c5300ed",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -89,10 +97,10 @@
             }
           },
           {
-            "id": "924565b9c0b53830",
+            "id": "d7bf2d20ad818b77",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "git-view",
               "state": {}
             }
           },
@@ -102,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/搜索求解策略.md"
+                "file": "Week/Day Planners/Day.md"
               }
             }
           },
@@ -112,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/搜索求解策略.md",
+                "file": "Week/Day Planners/Day.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/搜索求解策略.md",
+                "file": "Week/Day Planners/Day.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,41 +153,25 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "ffea250910e684ec",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "d7bf2d20ad818b77",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 347
   },
-  "active": "b7dd550e9dad4e46",
+  "active": "d7bf2d20ad818b77",
   "lastOpenFiles": [
-    "Day Planners/2022-11-14.md",
-    "source/_posts/x86-64汇编.md",
-    "source/_posts/操作系统 - 内存管理.md",
-    "source/_posts/Git.md",
-    "source/_posts/计算机网络 - 网络层.md",
-    "source/_posts/搜索求解策略.md",
-    "Week/2022-W47.md",
-    "Pasted image blog/source/img/Pasted image 20220919143300.png.md",
-    "Pasted image blog/source/img/Pasted image 20220919140423.png.md",
-    "Week/2022-W46.md"
+    "Week/Day Planners/2022-11-19.md",
+    "Week/Day Planners/Day.md",
+    "Week/Day Planners/2022-11-08.md",
+    "Week/Day Planners/2022-11-09.md",
+    "Week/Day Planners/2022-11-11.md",
+    "Week/Day Planners/2022-11-15.md",
+    "Week/Day Planners/2022-11-17.md",
+    "Week/2022-W46.md",
+    "Week/2022-W48.md",
+    "Week/2022-W47.md"
   ]
 }

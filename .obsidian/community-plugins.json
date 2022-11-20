@@ -9,9 +9,9 @@
   "obsidian-admonition",
   "table-editor-obsidian",
   "obsidian-mind-map",
-  "obsidian-checklist-plugin",
   "quick-latex",
   "cm-editor-syntax-highlight-obsidian",
   "url-into-selection",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-checklist-plugin"
 ]
