@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7fdf2561f21ee85a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week/Day Planners/Day.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -120,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week/Day Planners/Day.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week/Day Planners/Day.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,10 +175,10 @@
     "direction": "horizontal",
     "width": 347
   },
-  "active": "d7bf2d20ad818b77",
+  "active": "7fdf2561f21ee85a",
   "lastOpenFiles": [
-    "Week/Day Planners/2022-11-19.md",
     "Week/Day Planners/Day.md",
+    "Week/Day Planners/2022-11-19.md",
     "Week/Day Planners/2022-11-08.md",
     "Week/Day Planners/2022-11-09.md",
     "Week/Day Planners/2022-11-11.md",
