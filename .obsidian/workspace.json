@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week/2022-W47.md",
+                "file": "source/_posts/搜索求解策略.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "深度优先",
+                "query": "图搜索",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "748b69d6e39f2a15",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week/2022-W47.md"
+                "file": "source/_posts/搜索求解策略.md"
               }
             }
           },
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week/2022-W47.md",
+                "file": "source/_posts/搜索求解策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week/2022-W47.md",
+                "file": "source/_posts/搜索求解策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,17 +169,17 @@
     "direction": "horizontal",
     "width": 347
   },
-  "active": "43048296f947a6b3",
+  "active": "b7dd550e9dad4e46",
   "lastOpenFiles": [
-    "Pasted image blog/source/img/Pasted image 20220919143300.png.md",
-    "Pasted image blog/source/img/Pasted image 20220919140423.png.md",
-    "source/_posts/计算机网络 - 网络层.md",
-    "Week/2022-W46.md",
-    "Day Planners/2022-11-19.md",
-    "Day Planners/2022-11-17.md",
+    "Day Planners/2022-11-14.md",
+    "source/_posts/x86-64汇编.md",
     "source/_posts/操作系统 - 内存管理.md",
     "source/_posts/Git.md",
-    "source/_posts/x86-64汇编.md",
-    "Week/2022-W48.md"
+    "source/_posts/计算机网络 - 网络层.md",
+    "source/_posts/搜索求解策略.md",
+    "Week/2022-W47.md",
+    "Pasted image blog/source/img/Pasted image 20220919143300.png.md",
+    "Pasted image blog/source/img/Pasted image 20220919140423.png.md",
+    "Week/2022-W46.md"
   ]
 }
