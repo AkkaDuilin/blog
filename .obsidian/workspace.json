@@ -4,37 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "648a58f077e41975",
+        "id": "0332f059c8b818dc",
         "type": "tabs",
         "children": [
           {
-            "id": "a9d09183d13bec28",
+            "id": "43048296f947a6b3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Week/Day Planners/Day.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "7fdf2561f21ee85a",
+            "id": "43afad72a998270c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "source/_posts/Vim 学习笔记.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "图搜索",
+                "query": "深度优先",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,6 +89,14 @@
         "type": "tabs",
         "children": [
           {
+            "id": "bb67dadbbfb56094",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
             "id": "924565b9c0b53830",
             "type": "leaf",
             "state": {
@@ -103,29 +105,11 @@
             }
           },
           {
-            "id": "c548a6ad0c5300ed",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "d7bf2d20ad818b77",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "a000f1ab6b29cba7",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              }
+              "state": {}
             }
           },
           {
@@ -134,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,25 +149,33 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "d7bf2d20ad818b77",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
     "width": 347
   },
-  "active": "7fdf2561f21ee85a",
+  "active": "d7bf2d20ad818b77",
   "lastOpenFiles": [
-    "Week/Day Planners/Day.md",
-    "Week/Day Planners/2022-11-19.md",
-    "Week/Day Planners/2022-11-08.md",
-    "Week/Day Planners/2022-11-09.md",
-    "Week/Day Planners/2022-11-11.md",
-    "Week/Day Planners/2022-11-15.md",
-    "Week/Day Planners/2022-11-17.md",
+    "conflict-files-obsidian-git.md",
+    "Week/2022-W47.md",
+    "Week/未命名.md",
     "Week/2022-W46.md",
+    "Day Planners/2022-11-19.md",
+    "Day Planners/2022-11-17.md",
+    "source/_posts/计算机网络 - 网络层.md",
     "Week/2022-W48.md",
-    "Week/2022-W47.md"
+    "source/Unfinished/pic/Pasted image 20220919140423.png",
+    "source/Unfinished/pic/Pasted image 20220919143300.png"
   ]
 }
